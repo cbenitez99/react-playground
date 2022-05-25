@@ -1,6 +1,7 @@
 // import  {useState} from "react";
 import './App.css'
-import EffectTutorial from "./components/EffectTutorial";
+// import EffectTutorial from "./components/EffectTutorial";
+import RefTutorial from './components/RefTutorial';
 // import Profile from "./components/Profile";
 // import ReducerTutorial from "./components/ReducerTutorial";
 
@@ -40,7 +41,8 @@ function App() {
         <Profile/> */}
         {/* <ReducerTutorial/> */}
       {/* </div> */}
-      <EffectTutorial/>
+      {/* <EffectTutorial/> */}
+      <RefTutorial/>
     </div>
   );
 }

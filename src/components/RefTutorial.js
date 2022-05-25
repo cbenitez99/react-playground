@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useRef} from 'react'
 
 function RefTutorial() {
-  return (
-    <div>RefTutorial</div>
-  )
-}
 
-export default RefTutorial
+  return (
+    <div>
+        <h1>Cristian</h1>
+        <input type="text" placeholder="Ex..."/>
+        <button>Change Name</button>
+    </div>
+  )
+};
+
+export default RefTutorial;
