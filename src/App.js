@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+// import  {useState} from "react";
+import './App.css'
+import EffectTutorial from "./components/EffectTutorial";
+// import Profile from "./components/Profile";
+// import ReducerTutorial from "./components/ReducerTutorial";
 
+
+//Functional component -> function that returns something
+//Recieves input(props)then gives back output(JSX)
 function App() {
+  //cant go under 0 or greater than 10
+  // const [counter, setCounter] = useState(0);
+
+  // const handleIncrement = () => {
+  //     setCounter(counter + 1)
+  // };
+
+  // const handleDecrement = () => {
+  //     setCounter(counter - 1)
+  // };
+
+  // const handleIncrementTens = () => {
+  //   setCounter(counter + 10)
+  // };
+  // const handleDecrementTens = () => {
+  //   setCounter(counter - 10)
+  // };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <h1 className="cymag-text">Counter App</h1>
+      <div>
+        <p className="cymag-text">Counter : {counter}</p>
+        <button className="cymag-text" onClick={handleIncrement}>Increase</button>
+        <button className="cymag-text"onClick={handleDecrement}>Decrease</button>
+        <hr/>
+        <button className="cymag-text"onClick={handleIncrementTens}>+10</button>
+        <button className="cymag-text"onClick={handleDecrementTens}>-10</button>
+        <Profile/> */}
+        {/* <ReducerTutorial/> */}
+      {/* </div> */}
+      <EffectTutorial/>
     </div>
   );
 }
