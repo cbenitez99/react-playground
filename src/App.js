@@ -1,7 +1,7 @@
 // import  {useState} from "react";
 import './App.css'
 import ContextTutorial from './components/ContextFolder/ContextTutorial';
-import ImperativeHandle from './components/ImperativeHandleFolder/ImperativeHandle';
+// import ImperativeHandle from './components/ImperativeHandleFolder/ImperativeHandle';
 // import LayoutEffectTutorial from './components/LayUseEffect/LayoutEffectTutorial';
 // import EffectTutorial from "./components/LayUseEffect/EffectTutorial";
 // import RefTutorial from './components/RefTutorial';
