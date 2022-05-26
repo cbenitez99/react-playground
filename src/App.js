@@ -1,6 +1,7 @@
 // import  {useState} from "react";
 import './App.css'
-import LayoutEffectTutorial from './components/LayoutEffectTutorial';
+import ImperativeHandle from './components/ImperativeHandle';
+// import LayoutEffectTutorial from './components/LayoutEffectTutorial';
 // import EffectTutorial from "./components/EffectTutorial";
 // import RefTutorial from './components/RefTutorial';
 // import Profile from "./components/Profile";
@@ -44,7 +45,8 @@ function App() {
       {/* </div> */}
       {/* <EffectTutorial/> */}
       {/* <RefTutorial/> */}
-      <LayoutEffectTutorial/>
+      {/* <LayoutEffectTutorial/> */}
+      <ImperativeHandle/>
     </div>
   );
 }
