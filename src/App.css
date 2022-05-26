@@ -40,6 +40,7 @@
 .cymag-text {
   font-size: 72px;
   background: -webkit-linear-gradient(cyan, magenta);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -48,6 +49,7 @@
 .cymag-text-small {
   font-size: 19px;
   background: -webkit-linear-gradient(rgb(231, 10, 231), rgb(19, 255, 19));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
