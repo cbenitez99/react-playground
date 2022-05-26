@@ -5,7 +5,8 @@ function RefTutorial() {
   const inputRef = useRef(null);
 
   const onClick = () => {
-    console.log(inputRef.current.value)
+    // inputRef.current.focus(); //when clicking button it focuses to input feild
+    // inputRef.current.value = ""; //when clicking button it "clears" the input feild
   };
 
   return (
