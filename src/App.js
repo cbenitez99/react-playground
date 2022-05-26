@@ -1,8 +1,9 @@
 // import  {useState} from "react";
 import './App.css'
-import ImperativeHandle from './components/ImperativeHandle';
-// import LayoutEffectTutorial from './components/LayoutEffectTutorial';
-// import EffectTutorial from "./components/EffectTutorial";
+import ContextTutorial from './components/ContextFolder/ContextTutorial';
+import ImperativeHandle from './components/ImperativeHandleFolder/ImperativeHandle';
+// import LayoutEffectTutorial from './components/LayUseEffect/LayoutEffectTutorial';
+// import EffectTutorial from "./components/LayUseEffect/EffectTutorial";
 // import RefTutorial from './components/RefTutorial';
 // import Profile from "./components/Profile";
 // import ReducerTutorial from "./components/ReducerTutorial";
@@ -46,7 +47,8 @@ function App() {
       {/* <EffectTutorial/> */}
       {/* <RefTutorial/> */}
       {/* <LayoutEffectTutorial/> */}
-      <ImperativeHandle/>
+      {/* <ImperativeHandle/> */}
+      <ContextTutorial/>
     </div>
   );
 }
