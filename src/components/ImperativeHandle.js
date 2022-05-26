@@ -2,8 +2,12 @@ import React from 'react'
 
 function ImperativeHandle() {
   return (
-    <div>ImperativeHandle</div>
-  )
-}
+    <div>
+        <button>Button From Parent</button>
+        <Button />
+    </div>
+    
+  );
+};
 
-export default ImperativeHandle
+export default ImperativeHandle;
