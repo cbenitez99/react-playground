@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useMemo} from 'react'
 import axios from 'axios';
 
-
+//code bases that use a lot of data is a good use for useMemo();
 function MemoTutorial() {
 
     const [data, setData] = useState(null); 
@@ -29,6 +29,7 @@ function MemoTutorial() {
         return longestName;    
     };
 
+    //findLongestName() will compute if value of [dependencyArray] changes
     const getLongestName = useMemo(()=> findLongestName(data), [data])
 
   return (
