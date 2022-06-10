@@ -33,7 +33,7 @@ function MemoTutorial() {
 
   return (
     <div>
-        <div>{findLongestName(data)}</div>
+        <div>{getLongestName}</div>
         <button onClick={()=>{
             setToggle(!toggle);
         }}>
