@@ -1,9 +1,11 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useMemo} from 'react'
+import axios from 'axios';
 
 
 function MemoTutorial() {
 
     const [data, setData] = useState(null); 
+    const [toggle, setToggle] = useState(false);
 
     useEffect(() => {
       axios
@@ -23,12 +25,23 @@ function MemoTutorial() {
                 longestName = currentName
             }
         }
-    }
+        console.log("THIS WAS COMPUTED");
+        return longestName;    
+    };
 
-    console.log("THIS WAS COMPUTED");
-    
+    const getLongestName = useMemo(()=> findLongestName(data), [data])
+
   return (
-    <div>MemoTutorial</div>
+    <div>
+        <div>{findLongestName(data)}</div>
+        <button onClick={()=>{
+            setToggle(!toggle);
+        }}>
+            {" "}
+            Toggle
+        </button>
+        {toggle && <h1>toggle</h1>}
+    </div>
   )
 }
 
